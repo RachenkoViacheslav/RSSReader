@@ -73,9 +73,8 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sOI-H5-SbT">
                     <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                     <subviews>
-                        <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JJA-qE-j39">
+                        <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JJA-qE-j39">
                             <rect key="frame" x="0.0" y="0.0" width="414" height="672"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <wkWebViewConfiguration key="configuration">
                                 <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
@@ -84,6 +83,12 @@
                         </wkWebView>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="JJA-qE-j39" firstAttribute="leading" secondItem="sOI-H5-SbT" secondAttribute="leading" id="38L-vG-jJJ"/>
+                        <constraint firstAttribute="bottom" secondItem="JJA-qE-j39" secondAttribute="bottom" id="Ica-Ex-Z1e"/>
+                        <constraint firstItem="JJA-qE-j39" firstAttribute="top" secondItem="sOI-H5-SbT" secondAttribute="top" id="LcB-3a-lix"/>
+                        <constraint firstAttribute="trailing" secondItem="JJA-qE-j39" secondAttribute="trailing" id="xq5-UZ-91Z"/>
+                    </constraints>
                 </view>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
